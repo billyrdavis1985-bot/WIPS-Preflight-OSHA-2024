@@ -27,7 +27,6 @@ support human decision-making, not replace it.
 
 ## Repository Structure
 
-## Repository Structure
 
 ```
 WIPS-Preflight-OSHA-2024/
