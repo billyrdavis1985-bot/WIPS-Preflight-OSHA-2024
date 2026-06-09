@@ -27,8 +27,9 @@ support human decision-making, not replace it.
 
 ## Repository Structure
 
----
+## Repository Structure
 
+```
 WIPS-Preflight-OSHA-2024/
 ├── phase-1-preflight/
 │   └── WIPS-Preflight-OSHA-2024.ipynb
@@ -40,16 +41,15 @@ WIPS-Preflight-OSHA-2024/
 │   └── synthetic_pipeline_validation.ipynb
 │
 └── phase-3-decision-support/
-├── scoring_engine.ipynb
-├── WIPS_Floor_Dashboard_Live.jsx
-├── WIPS_Floor_Dashboard_v2.jsx
-├── WIPS_Director_Dashboard.jsx
-├── WIPS_Notification_Mockup.jsx
-└── sample_data/
-├── wips_alerts.json
-└── wips_alerts_multi.json
-
----
+    ├── scoring_engine.ipynb
+    ├── WIPS_Floor_Dashboard_Live.jsx
+    ├── WIPS_Floor_Dashboard_v2.jsx
+    ├── WIPS_Director_Dashboard.jsx
+    ├── WIPS_Notification_Mockup.jsx
+    └── sample_data/
+        ├── wips_alerts.json
+        └── wips_alerts_multi.json
+```
 
 ## Phase 1 — Preflight Investigation
 
