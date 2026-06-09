@@ -1,0 +1,456 @@
+{
+  "generated": "2026-06-06T00:26:40.327999",
+  "company": "Hudson Forge Technologies",
+  "plants": [
+    {
+      "plant": {
+        "plant_id": "plant_17",
+        "name": "Hudson Forge Wood Finishing \u2014 Plant 17",
+        "location": "Lenoir, NC",
+        "employees": 142,
+        "shifts": 3,
+        "riskScore": 47,
+        "riskTrend": "+3",
+        "alertsOpen": 4,
+        "zonesAttention": 4,
+        "generated": "2026-06-06T00:26:40.390288"
+      },
+      "alerts": [
+        {
+          "id": 1,
+          "tier": "CRITICAL",
+          "location": "MIXING LINE 3",
+          "type": "Chemical Splash Risk",
+          "changedDays": 14,
+          "riskBefore": 52,
+          "riskAfter": 63,
+          "summary": "Risk increased 11 points in past 14 days. Contributing conditions: equipment status flags.",
+          "factors": [
+            {
+              "name": "Near-miss rate at 19.1% (facility avg ~8%)",
+              "weight": 0.85
+            },
+            {
+              "name": "37% of workers past 270 days since training",
+              "weight": 0.7
+            },
+            {
+              "name": "Equipment status flagged on 20% of shifts",
+              "weight": 0.40764331210191085
+            }
+          ],
+          "action": "Walk MIXING LINE 3 this week to observe operations. Review last 5 near-miss reports for common patterns.",
+          "confidence": 0.93
+        },
+        {
+          "id": 2,
+          "tier": "CAUTION",
+          "location": "FILLING STATION B",
+          "type": "Repetitive Motion Pattern",
+          "changedDays": 14,
+          "riskBefore": 51,
+          "riskAfter": 59,
+          "summary": "Risk increased 8 points in past 14 days. Contributing conditions: equipment status flags.",
+          "factors": [
+            {
+              "name": "Near-miss rate at 18.0% (facility avg ~8%)",
+              "weight": 0.85
+            },
+            {
+              "name": "40% of workers past 270 days since training",
+              "weight": 0.7
+            },
+            {
+              "name": "Equipment status flagged on 21% of shifts",
+              "weight": 0.4158415841584158
+            },
+            {
+              "name": "Overtime rate at 15% of shifts",
+              "weight": 0.300990099009901
+            }
+          ],
+          "action": "Walk FILLING STATION B this week to observe operations. Review last 5 near-miss reports for common patterns.",
+          "confidence": 0.84
+        },
+        {
+          "id": 3,
+          "tier": "CAUTION",
+          "location": "WAREHOUSE LOADING",
+          "type": "Schedule Pressure Pattern",
+          "changedDays": 14,
+          "riskBefore": 38,
+          "riskAfter": 46,
+          "summary": "Risk increased 8 points in past 14 days. Contributing conditions: equipment status flags.",
+          "factors": [
+            {
+              "name": "29% of workers past 270 days since training",
+              "weight": 0.7
+            },
+            {
+              "name": "Near-miss rate at 11.0% (facility avg ~8%)",
+              "weight": 0.5524861878453038
+            },
+            {
+              "name": "Equipment status flagged on 23% of shifts",
+              "weight": 0.46408839779005523
+            }
+          ],
+          "action": "Schedule training refreshers for workers in WAREHOUSE LOADING who exceed 270-day window. Priority within 2 weeks.",
+          "confidence": 0.84
+        },
+        {
+          "id": 4,
+          "tier": "CAUTION",
+          "location": "COATINGS PREP \u2014 ZONE 4",
+          "type": "Equipment Status Drift",
+          "changedDays": 14,
+          "riskBefore": 44,
+          "riskAfter": 51,
+          "summary": "Risk increased 7 points in past 14 days. Contributing conditions: 17% new hires, equipment status flags.",
+          "factors": [
+            {
+              "name": "Near-miss rate at 13.9% (facility avg ~8%)",
+              "weight": 0.6962025316455696
+            },
+            {
+              "name": "22% of workers past 270 days since training",
+              "weight": 0.5537974683544303
+            },
+            {
+              "name": "17% of workers under 90-day tenure",
+              "weight": 0.5126582278481012
+            },
+            {
+              "name": "Equipment status flagged on 23% of shifts",
+              "weight": 0.45569620253164556
+            }
+          ],
+          "action": "Walk COATINGS PREP \u2014 ZONE 4 this week to observe operations. Review last 5 near-miss reports for common patterns.",
+          "confidence": 0.81
+        },
+        {
+          "id": 5,
+          "tier": "WATCH",
+          "location": "PRODUCTION FLOOR",
+          "type": "General Operational Status",
+          "changedDays": 14,
+          "riskBefore": 33,
+          "riskAfter": 28,
+          "summary": "Risk increased -5 points in past 14 days. Contributing conditions: equipment status flags.",
+          "factors": [
+            {
+              "name": "22% of workers past 270 days since training",
+              "weight": 0.5448717948717949
+            },
+            {
+              "name": "Equipment status flagged on 18% of shifts",
+              "weight": 0.358974358974359
+            }
+          ],
+          "action": "Schedule training refreshers for workers in PRODUCTION FLOOR who exceed 270-day window. Priority within 2 weeks.",
+          "confidence": 0.75
+        }
+      ]
+    },
+    {
+      "plant": {
+        "plant_id": "plant_24",
+        "name": "Hudson Forge Wood Finishing \u2014 Plant 24",
+        "location": "Hickory, NC",
+        "employees": 98,
+        "shifts": 2,
+        "riskScore": 39,
+        "riskTrend": "+2",
+        "alertsOpen": 2,
+        "zonesAttention": 4,
+        "generated": "2026-06-06T00:26:40.405522"
+      },
+      "alerts": [
+        {
+          "id": 1,
+          "tier": "CAUTION",
+          "location": "FILLING STATION B",
+          "type": "Repetitive Motion Pattern",
+          "changedDays": 14,
+          "riskBefore": 43,
+          "riskAfter": 53,
+          "summary": "Risk increased 10 points in past 14 days. Contributing conditions: equipment status flags.",
+          "factors": [
+            {
+              "name": "Near-miss rate at 18.0% (facility avg ~8%)",
+              "weight": 0.85
+            },
+            {
+              "name": "40% of workers past 270 days since training",
+              "weight": 0.7
+            },
+            {
+              "name": "Equipment status flagged on 21% of shifts",
+              "weight": 0.4158415841584158
+            },
+            {
+              "name": "Overtime rate at 15% of shifts",
+              "weight": 0.300990099009901
+            }
+          ],
+          "action": "Walk FILLING STATION B this week to observe operations. Review last 5 near-miss reports for common patterns.",
+          "confidence": 0.9
+        },
+        {
+          "id": 2,
+          "tier": "CAUTION",
+          "location": "MIXING LINE 3",
+          "type": "Chemical Splash Risk",
+          "changedDays": 14,
+          "riskBefore": 44,
+          "riskAfter": 52,
+          "summary": "Risk increased 8 points in past 14 days. Contributing conditions: equipment status flags.",
+          "factors": [
+            {
+              "name": "Near-miss rate at 19.1% (facility avg ~8%)",
+              "weight": 0.85
+            },
+            {
+              "name": "37% of workers past 270 days since training",
+              "weight": 0.7
+            },
+            {
+              "name": "Equipment status flagged on 20% of shifts",
+              "weight": 0.40764331210191085
+            }
+          ],
+          "action": "Walk MIXING LINE 3 this week to observe operations. Review last 5 near-miss reports for common patterns.",
+          "confidence": 0.84
+        },
+        {
+          "id": 3,
+          "tier": "WATCH",
+          "location": "COATINGS PREP \u2014 ZONE 4",
+          "type": "Equipment Status Drift",
+          "changedDays": 14,
+          "riskBefore": 37,
+          "riskAfter": 40,
+          "summary": "Risk increased 3 points in past 14 days. Contributing conditions: 17% new hires, equipment status flags.",
+          "factors": [
+            {
+              "name": "Near-miss rate at 13.9% (facility avg ~8%)",
+              "weight": 0.6962025316455696
+            },
+            {
+              "name": "22% of workers past 270 days since training",
+              "weight": 0.5537974683544303
+            },
+            {
+              "name": "17% of workers under 90-day tenure",
+              "weight": 0.5126582278481012
+            },
+            {
+              "name": "Equipment status flagged on 23% of shifts",
+              "weight": 0.45569620253164556
+            }
+          ],
+          "action": "Walk COATINGS PREP \u2014 ZONE 4 this week to observe operations. Review last 5 near-miss reports for common patterns.",
+          "confidence": 0.69
+        },
+        {
+          "id": 4,
+          "tier": "WATCH",
+          "location": "WAREHOUSE LOADING",
+          "type": "Schedule Pressure Pattern",
+          "changedDays": 14,
+          "riskBefore": 32,
+          "riskAfter": 35,
+          "summary": "Risk increased 3 points in past 14 days. Contributing conditions: equipment status flags.",
+          "factors": [
+            {
+              "name": "29% of workers past 270 days since training",
+              "weight": 0.7
+            },
+            {
+              "name": "Near-miss rate at 11.0% (facility avg ~8%)",
+              "weight": 0.5524861878453038
+            },
+            {
+              "name": "Equipment status flagged on 23% of shifts",
+              "weight": 0.46408839779005523
+            }
+          ],
+          "action": "Schedule training refreshers for workers in WAREHOUSE LOADING who exceed 270-day window. Priority within 2 weeks.",
+          "confidence": 0.69
+        },
+        {
+          "id": 5,
+          "tier": "WATCH",
+          "location": "PRODUCTION FLOOR",
+          "type": "General Operational Status",
+          "changedDays": 14,
+          "riskBefore": 28,
+          "riskAfter": 27,
+          "summary": "Risk increased -1 points in past 14 days. Contributing conditions: equipment status flags.",
+          "factors": [
+            {
+              "name": "22% of workers past 270 days since training",
+              "weight": 0.5448717948717949
+            },
+            {
+              "name": "Equipment status flagged on 18% of shifts",
+              "weight": 0.358974358974359
+            }
+          ],
+          "action": "Schedule training refreshers for workers in PRODUCTION FLOOR who exceed 270-day window. Priority within 2 weeks.",
+          "confidence": 0.63
+        }
+      ]
+    },
+    {
+      "plant": {
+        "plant_id": "plant_31",
+        "name": "Hudson Forge Wood Finishing \u2014 Plant 31",
+        "location": "Statesville, NC",
+        "employees": 187,
+        "shifts": 3,
+        "riskScore": 52,
+        "riskTrend": "+3",
+        "alertsOpen": 4,
+        "zonesAttention": 4,
+        "generated": "2026-06-06T00:26:40.421590"
+      },
+      "alerts": [
+        {
+          "id": 1,
+          "tier": "CRITICAL",
+          "location": "FILLING STATION B",
+          "type": "Repetitive Motion Pattern",
+          "changedDays": 14,
+          "riskBefore": 58,
+          "riskAfter": 68,
+          "summary": "Risk increased 10 points in past 14 days. Contributing conditions: equipment status flags.",
+          "factors": [
+            {
+              "name": "Near-miss rate at 18.0% (facility avg ~8%)",
+              "weight": 0.85
+            },
+            {
+              "name": "40% of workers past 270 days since training",
+              "weight": 0.7
+            },
+            {
+              "name": "Equipment status flagged on 21% of shifts",
+              "weight": 0.4158415841584158
+            },
+            {
+              "name": "Overtime rate at 15% of shifts",
+              "weight": 0.300990099009901
+            }
+          ],
+          "action": "Walk FILLING STATION B this week to observe operations. Review last 5 near-miss reports for common patterns.",
+          "confidence": 0.9
+        },
+        {
+          "id": 2,
+          "tier": "CRITICAL",
+          "location": "MIXING LINE 3",
+          "type": "Chemical Splash Risk",
+          "changedDays": 14,
+          "riskBefore": 59,
+          "riskAfter": 68,
+          "summary": "Risk increased 9 points in past 14 days. Contributing conditions: equipment status flags.",
+          "factors": [
+            {
+              "name": "Near-miss rate at 19.1% (facility avg ~8%)",
+              "weight": 0.85
+            },
+            {
+              "name": "37% of workers past 270 days since training",
+              "weight": 0.7
+            },
+            {
+              "name": "Equipment status flagged on 20% of shifts",
+              "weight": 0.40764331210191085
+            }
+          ],
+          "action": "Walk MIXING LINE 3 this week to observe operations. Review last 5 near-miss reports for common patterns.",
+          "confidence": 0.87
+        },
+        {
+          "id": 3,
+          "tier": "CAUTION",
+          "location": "COATINGS PREP \u2014 ZONE 4",
+          "type": "Equipment Status Drift",
+          "changedDays": 14,
+          "riskBefore": 50,
+          "riskAfter": 57,
+          "summary": "Risk increased 7 points in past 14 days. Contributing conditions: 17% new hires, equipment status flags.",
+          "factors": [
+            {
+              "name": "Near-miss rate at 13.9% (facility avg ~8%)",
+              "weight": 0.6962025316455696
+            },
+            {
+              "name": "22% of workers past 270 days since training",
+              "weight": 0.5537974683544303
+            },
+            {
+              "name": "17% of workers under 90-day tenure",
+              "weight": 0.5126582278481012
+            },
+            {
+              "name": "Equipment status flagged on 23% of shifts",
+              "weight": 0.45569620253164556
+            }
+          ],
+          "action": "Walk COATINGS PREP \u2014 ZONE 4 this week to observe operations. Review last 5 near-miss reports for common patterns.",
+          "confidence": 0.81
+        },
+        {
+          "id": 4,
+          "tier": "CAUTION",
+          "location": "WAREHOUSE LOADING",
+          "type": "Schedule Pressure Pattern",
+          "changedDays": 14,
+          "riskBefore": 43,
+          "riskAfter": 48,
+          "summary": "Risk increased 5 points in past 14 days. Contributing conditions: equipment status flags.",
+          "factors": [
+            {
+              "name": "29% of workers past 270 days since training",
+              "weight": 0.7
+            },
+            {
+              "name": "Near-miss rate at 11.0% (facility avg ~8%)",
+              "weight": 0.5524861878453038
+            },
+            {
+              "name": "Equipment status flagged on 23% of shifts",
+              "weight": 0.46408839779005523
+            }
+          ],
+          "action": "Schedule training refreshers for workers in WAREHOUSE LOADING who exceed 270-day window. Priority within 2 weeks.",
+          "confidence": 0.75
+        },
+        {
+          "id": 5,
+          "tier": "WATCH",
+          "location": "PRODUCTION FLOOR",
+          "type": "General Operational Status",
+          "changedDays": 14,
+          "riskBefore": 37,
+          "riskAfter": 35,
+          "summary": "Risk increased -2 points in past 14 days. Contributing conditions: equipment status flags.",
+          "factors": [
+            {
+              "name": "22% of workers past 270 days since training",
+              "weight": 0.5448717948717949
+            },
+            {
+              "name": "Equipment status flagged on 18% of shifts",
+              "weight": 0.358974358974359
+            }
+          ],
+          "action": "Schedule training refreshers for workers in PRODUCTION FLOOR who exceed 270-day window. Priority within 2 weeks.",
+          "confidence": 0.66
+        }
+      ]
+    }
+  ]
+}
